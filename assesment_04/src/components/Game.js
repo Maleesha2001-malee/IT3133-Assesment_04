@@ -25,48 +25,47 @@ export default function Game() {
   };
 
   return (
-    <div className="container">
-      
-      <h1 className="heading-border">ANIMAL MATCHING GAME</h1>
-   
-      <table className="table">
-        <thead>
-          <tr>
-            <th className="header">Result</th>
-            <th className="header">Animal Name</th>
-            <th className="header">Select the Animal</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="result">
-              <span style={{ color: result === "WIN" ? "green" : "red" }}>
-                {result}
-              </span>
-            </td>
-            <td className="target-animal">
-              {targetAnimal ? targetAnimal.name.toUpperCase() : "Loading..."}
-            </td>
-            <td className="animal-grid">
-              <div className="grid">
-                {animals.map((animal) => (
-                  <div
-                    key={animal.id}
-                    className="card"
-                    onClick={() => handleAnimalClick(animal)}
-                  >
-                    <img
-                      src={require(`../assets/img/${animal.image}`)}
-                      alt={animal.name}
-                      className="image"
-                    />
-                  </div>
-                ))}
+    <div className="game-wrapper">
+      <div className="header">
+        <h1>ANIMAL MATCHING GAME</h1>
+      </div>
+
+      <div className="game-container">
+        <div className="column result-column ">
+          <div className="animal-grid-header"><h2>Result</h2></div>
+          <span style={{ color: result === "WIN" ? "orange" : "orange" }}>
+            {result}
+          </span>
+        </div>
+
+       
+        <div className="column name-column">
+          <div className="animal-grid-header"><h2>Animal Name</h2></div>
+          {targetAnimal ? targetAnimal.name.toUpperCase() : "Loading..."}
+        </div>
+
+
+        <div className="column grid-column">
+          <div className="animal-grid-header"><h2>Select the Animal</h2></div>
+          <div className="animal-grid">
+            {animals.map((animal) => (
+              <div
+                key={animal.id}
+                className="card"
+                onClick={() => handleAnimalClick(animal)}
+              >
+                <img
+                  src={require(`../assets/img/${animal.image}`)}
+                  alt={animal.name}
+                  className="image"
+                />
               </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
+
+
