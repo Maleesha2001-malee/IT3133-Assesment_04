@@ -1,25 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import AnimalsDb from './data/AnimalsDb';
-import AnimalCard from './AnimalCard';
+import AnimalsDb from '/workspaces/IT3133-Assesment_04/assesment_04/src/data/AnimalsDb';
+import AnimalCard from '/workspaces/IT3133-Assesment_04/assesment_04/src/components/AnimalCard';
 import Result from './Result';
 
-export default function Game(){
-    const[currentAnimal,setCurrentAnimal]=useState({});
-    const[option,setOptin]=useState([]);
-    const[result,setResult]=useState([]);
+export default function AnimalMatchingGame() {
+    const [currentAnimal, setCurrentAnimal] = useState({});
+    const [options, setOptions] = useState([]);
+    const [result, setResult] = useState('');
 
-    useEffect(()=>{
-        generateNewAnimal();
-    },[]);
-
-    const generateoption = (correctAnimal)=>{
+    
+    const generateNewAnimal = () => {
         const randomIndex = Math.floor(Math.random() * AnimalsDb.length);
         const selectedAnimal = AnimalsDb[randomIndex];
         setCurrentAnimal(selectedAnimal);
         generateOptions(selectedAnimal);
-       };
-    
-       const generateOptions = (correctAnimal) => {
+    };
+
+   
+    const generateOptions = (correctAnimal) => {
         let shuffledAnimals = [...AnimalsDb];
         shuffledAnimals.sort(() => 0.5 - Math.random()); // Shuffle animals
         const correctOptionIndex = Math.floor(Math.random() * 16);
@@ -27,6 +25,12 @@ export default function Game(){
         setOptions(shuffledAnimals.slice(0, 16)); // Get first 16 animals
     };
 
+    
+    useEffect(() => {
+        generateNewAnimal();
+    }, []);
+
+    
     const handleAnimalClick = (animal) => {
         if (animal.name === currentAnimal.name) {
             setResult('You Win!');
