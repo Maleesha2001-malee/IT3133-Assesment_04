@@ -16,3 +16,6 @@ const animals = [
     { id: 15, name: 'Hen', image: '/workspaces/IT3133-Assesment_04/assesment_04/src/assets/15.jpg' },
     { id: 16, name: 'goat', image: '/workspaces/IT3133-Assesment_04/assesment_04/src/assets/16.jpg' }
   ];
+
+  export default animals;
+  
