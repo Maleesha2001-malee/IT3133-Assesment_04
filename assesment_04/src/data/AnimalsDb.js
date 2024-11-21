@@ -11,7 +11,7 @@ const animals = [
   { id: 10, name: 'Sheep', image: '10.jpg' },
   { id: 11, name: 'Donkey', image: '11.jpg' },
   { id: 12, name: 'Fox', image: '12.jpg' },
-  { id: 13, name: 'Fox', image: '13.jpg' },
+  { id: 13, name: 'Wolf', image: '13.jpg' },
   { id: 14, name: 'Bear', image: '14.jpg' },
   { id: 15, name: 'Hen', image: '15.jpg' },
   { id: 16, name: 'Goat', image: '16.jpg' },
