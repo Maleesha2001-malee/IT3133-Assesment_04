@@ -1,9 +1,7 @@
 import React from 'react';
 
-const Result = ({result}) => {
+export default function Result({result}){
     return(
         <h2>{result}</h2>
     );
-};
-
-export default Result;
+}
