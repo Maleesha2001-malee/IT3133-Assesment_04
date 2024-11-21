@@ -3,46 +3,60 @@
     text-align: center;
     padding: 20px;
   }
-.header-container{
-   width:100px;
-   height:50;
-   border-color: orange;
-   border:2px;
-}
+  .heading-border {
+    border: 5px solid orange;            
+    display: inline-block;     
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    text-align: center;        
+    font-size: 24px;           
+    width:99%;          
+  }
  
   .table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+  
   }
   
   .header {
-    border: 1px solid #ddd;
+    border: 5px solid orange;
+    border-bottom: none;
     padding: 10px;
-    background-color: #f4f4f4;
     font-weight: bold;
     text-align: center;
+    border-spacing: 10px;
+    
   }
   
   .result {
-    border: 1px solid #ddd;
+    border: 5px solid orange;
+    border-bottom: none;
+    border-top: none;
     text-align: center;
     padding: 20px;
     font-size: 18px;
+   
+    
   }
   
   .target-animal {
-    border: 1px solid #ddd;
+    border: 5px solid orange;
+    border-bottom: none;
+    border-top: none;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
     font-weight: bold;
     color: orange;
   }
   
   .animal-grid {
-    border: 1px solid #ddd;
+    border: 5px solid orange;
+    border-bottom: none;
+    border-top: none;
     padding: 10px;
+    background-color: steelblue;
   }
   
   /* Grid for Animal Images */
@@ -53,15 +67,19 @@
   }
   
   .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
     padding: 10px;
     cursor: pointer;
   }
   
   .image {
-    width: 100%;
+    width: 60%;
     height: 100px;
-    object-fit: cover;
+    
   }
+  
+  table {
+    border-collapse: collapse; 
+    border-color: orange;
+  }
+
   
