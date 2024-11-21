@@ -26,7 +26,9 @@ export default function Game() {
 
   return (
     <div className="container">
+      <div className="header-container">
       <h1>ANIMAL MATCHING GAME</h1>
+    </div>
       <table className="table">
         <thead>
           <tr>

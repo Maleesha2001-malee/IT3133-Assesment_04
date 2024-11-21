@@ -3,7 +3,12 @@
     text-align: center;
     padding: 20px;
   }
-  
+.header-container{
+   width:100px;
+   height:50;
+   border-color: orange;
+   border:2px;
+}
  
   .table {
     width: 100%;
