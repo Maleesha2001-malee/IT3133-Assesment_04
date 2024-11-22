@@ -62,7 +62,8 @@ Enjoy the game! 🎮
 
 ## Output Video
 
-https://github.com/user-attachments/assets/d8c79a63-731f-44f0-b5c1-42c5f6525c00
+https://github.com/user-attachments/assets/70002327-0647-4b76-90db-d81324487a8d
 
 ## Output Image
-![Screenshot (69)](https://github.com/user-attachments/assets/5f3807f8-1eac-479f-8e33-db52b2e2c5d9)
+![AnimalGame](https://github.com/user-attachments/assets/5bde3cc3-d972-4ac8-8bf5-0ba0c0a221a2)
+
