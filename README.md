@@ -16,7 +16,7 @@ A simple React-based game where users match a randomly selected target animal wi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/animal-matching-game.git
+   git clone https://github.com/Maleesha2001-malee/IT3133-Assesment_04.git
    cd animal-matching-game
    ```
 
