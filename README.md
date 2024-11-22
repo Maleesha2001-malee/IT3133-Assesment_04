@@ -8,7 +8,7 @@ A simple React-based game where users match a randomly selected target animal wi
 - Randomly selects a target animal.
 - Clickable animal grid for matching.
 - Displays **WIN** or **LOSE** based on selection.
-- "Play Again" button to restart the game.
+- Refesh the page to restart the game.
 
 ---
 
