@@ -29,7 +29,7 @@ A simple React-based game where users match a randomly selected target animal wi
    ```bash
    npm start
    ```
-   Open [http://localhost:3000](http://localhost:3000).
+4. Open the app in your browser: http://localhost:3000
 
 ---
 
@@ -45,6 +45,14 @@ A simple React-based game where users match a randomly selected target animal wi
 - **React.js**
 - **CSS**
 - **JavaScript**
+
+---
+## Topics
+This project covers the following topics:
+- **React-based game development.**
+- **State management in React.**
+- **Dynamic rendering of components.**
+- **Styling with CSS.**
 
 ---
 
