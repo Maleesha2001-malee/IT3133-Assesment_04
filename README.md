@@ -8,7 +8,7 @@ A simple React-based game where users match a randomly selected target animal wi
 - Randomly selects a target animal.
 - Clickable animal grid for matching.
 - Displays **WIN** or **LOSE** based on selection.
-- "Play Again" button to restart the game.
+- Refesh the page to restart the game.
 
 ---
 
@@ -16,7 +16,7 @@ A simple React-based game where users match a randomly selected target animal wi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/animal-matching-game.git
+   git clone https://github.com/Maleesha2001-malee/IT3133-Assesment_04.git
    cd animal-matching-game
    ```
 
@@ -29,7 +29,7 @@ A simple React-based game where users match a randomly selected target animal wi
    ```bash
    npm start
    ```
-   Open [http://localhost:3000](http://localhost:3000).
+4. Open the app in your browser: http://localhost:3000
 
 ---
 
@@ -45,6 +45,14 @@ A simple React-based game where users match a randomly selected target animal wi
 - **React.js**
 - **CSS**
 - **JavaScript**
+
+---
+## Topics
+This project covers the following topics:
+- **React-based game development.**
+- **State management in React.**
+- **Dynamic rendering of components.**
+- **Styling with CSS.**
 
 ---
 
